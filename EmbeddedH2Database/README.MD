@@ -9,11 +9,13 @@ We need to include the below dependency of need to select the H2 support while c
 </dependency>
 ```
 We have to add the below property in the application.properties file to enable the H2-Console.
+```properties
     spring.h2.console.enabled=true
-
+```
 So you can access the h2-console with the below url after your application started successfully.
+```
     http://<host>:<port>/h2-console
-  
+```
 Database Queries to create table:
 ```sql
 CREATE TABLE SAMPLE(id int primary key,name varchar(50),location varchar(100));
