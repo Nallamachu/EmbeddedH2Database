@@ -35,9 +35,10 @@ spring.jpa.properties.hibernate.current_session_context_class=org.springframewor
 I have used the JpaRepository to interact with the Database and using predefined methods in JpaRepository.
 
 You can use Postman to test this application and use the below api for CRUD operations.
+```
 Created : /api/save
 Update  : /api/update
 Delete By Id  : /api/deletebyid/<id>
 Select  : /api/getalldata
 Select By Id  : /api/getalldata/<id>
-
+```
